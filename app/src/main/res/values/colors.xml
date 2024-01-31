@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="baseBg">#D6A842</color>
+    <color name="baseContentBg">#F9F1E3</color>
+    <color name="iconBgAction">#B7892F</color>
+    <color name="roundedBg">#D2AD40</color>
+    <color name="tabBg">#D2AD40</color>
+    <color name="textButton">#B7892F</color>
+    <color name="buttonBaseColor">#B7892F</color>
+    <color name="iconBaseColor">#B8B6B6</color>
+
+</resources>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/baseContentBg"
+    tools:context=".ProfileFragment">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:background="@color/baseBg"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_marginRight="10dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/ic_profile"
+            app:tint="@color/white" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="17sp"
+                android:textColor="@color/white"
+                android:text="Nama"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Status"
+                android:textColor="@color/white"
+                android:textSize="17sp" />
+
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:paddingVertical="10dp"
+        android:layout_marginVertical="10dp"
+        android:layout_marginHorizontal="20dp"
+        android:background="@drawable/rounded_color_whte_noline"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <TextView
+        android:textSize="15sp"
+        android:paddingHorizontal="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ubah Kata Sandi"
+        android:drawableRight="@drawable/ic_arrow_right"
+        android:textColor="@color/black"
+        android:drawableTint="@color/black"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:paddingVertical="10dp"
+        android:layout_marginVertical="10dp"
+        android:layout_marginHorizontal="20dp"
+        android:background="@drawable/rounded_color_whte_noline"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:textSize="15sp"
+            android:paddingHorizontal="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ganti Akun"
+            android:drawableRight="@drawable/ic_arrow_right"
+            android:textColor="@color/black"
+            android:drawableTint="@color/black"/>
+    </LinearLayout>
+    <LinearLayout
+        android:paddingVertical="10dp"
+        android:layout_marginVertical="10dp"
+        android:layout_marginHorizontal="20dp"
+        android:background="@drawable/rounded_color_whte_noline"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:textSize="15sp"
+            android:paddingHorizontal="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Log Out"
+            android:drawableRight="@drawable/ic_arrow_right"
+            android:textColor="@color/black"
+            android:drawableTint="@color/black"/>
+    </LinearLayout>
+
+</LinearLayout>
+
+</FrameLayout>
